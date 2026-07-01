@@ -1,1 +1,4 @@
-r
+User-agent: *
+Allow: /
+
+Sitemap: https://rankvia.online/sitemap.xml
