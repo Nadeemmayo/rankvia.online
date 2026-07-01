@@ -5,32 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <link rel="canonical" href="https://rankvia.online/" />
-  <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" rx="26" fill="%23d94691"/><text x="50" y="62" text-anchor="middle" font-size="42" font-family="Arial" font-weight="900" fill="white">RV</text></svg>'>
+  <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" rx="24" fill="%23ff7ac8"/><text x="50" y="62" text-anchor="middle" font-size="42" font-family="Arial" font-weight="900" fill="%231a0715">RV</text></svg>'>
 
   <title>Rankvia | Premium SEO & Link Building Agency</title>
   <meta name="description" content="Rankvia is a premium SEO, guest posting and link building agency helping brands grow authority through quality backlinks, niche edits, content writing and white-hat SEO strategies.">
-  <meta name="robots" content="index, follow">
 
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <style>
     html { scroll-behavior: smooth; }
-    body { background:#1a0715; color:white; font-family:Arial,sans-serif; }
+    body { background:#1a0715; color:#fff; font-family:Arial,sans-serif; }
 
     .hero-bg { background:linear-gradient(135deg,#1a0715 0%,#4a1038 45%,#b83280 100%); }
     .pink-text { color:#ff7ac8; }
     .gold-text { color:#f7d36b; }
 
     .glass-card {
-      background:rgba(255,255,255,0.08);
+      background:rgba(255,255,255,0.07);
       border:1px solid rgba(255,122,200,0.28);
       backdrop-filter:blur(12px);
     }
 
     .service-card {
       background:rgba(255,255,255,0.06);
-      border:1px solid rgba(255,122,200,0.25);
+      border:1px solid rgba(255,122,200,0.24);
       border-radius:22px;
       padding:32px;
       transition:0.3s;
@@ -53,6 +52,12 @@
       color:#1a0715;
       font-size:26px;
       margin-bottom:20px;
+    }
+
+    .cta-box {
+      background:linear-gradient(135deg,#ff7ac8,#f7d36b);
+      color:#1a0715;
+      border-radius:28px;
     }
 
     .main-btn {
@@ -78,6 +83,14 @@
     }
 
     .outline-btn:hover { background:#ff7ac8; color:#1a0715; }
+
+    .stat-box {
+      background:rgba(255,122,200,0.10);
+      border:1px solid rgba(255,122,200,0.28);
+      border-radius:16px;
+      padding:20px;
+      text-align:center;
+    }
 
     .floating-contact {
       position:fixed;
@@ -126,6 +139,7 @@
         font-weight:bold;
         font-size:13px;
         text-transform:uppercase;
+        border-bottom:1px solid rgba(255,255,255,0.05);
       }
     }
   </style>
@@ -133,219 +147,312 @@
 
 <body>
 
-<nav class="sticky top-0 z-50" style="background:#1a0715; border-bottom:1px solid rgba(255,122,200,0.22);">
-  <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
-    <a href="index.html" class="text-2xl font-black text-white">
-      RANK<span class="pink-text">VIA</span>
-    </a>
+  <!-- NAVBAR -->
+  <nav style="background:#1a0715; border-bottom:1px solid rgba(255,122,200,0.22);" class="sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+      <a href="index.html" class="text-2xl font-black tracking-tight text-white">
+        RANK<span class="pink-text">VIA</span>
+      </a>
 
-    <div class="desktop-menu hidden md:flex gap-5 font-bold text-xs uppercase items-center">
-      <a href="index.html" class="pink-text">Home</a>
-      <a href="about.html" class="hover:text-pink-300">About</a>
-      <a href="services.html" class="hover:text-pink-300">Services</a>
-      <a href="portfolio.html" class="hover:text-pink-300">Portfolio</a>
-      <a href="all-niches-sites.html" class="hover:text-pink-300">All Niches</a>
-      <a href="blog.html" class="hover:text-pink-300">Blog</a>
-      <a href="FAQs.html" class="hover:text-pink-300">FAQ</a>
-      <a href="contact.html" class="main-btn px-5 py-2">Contact</a>
+      <div class="desktop-menu hidden md:flex gap-5 font-bold text-xs uppercase items-center">
+        <a href="index.html" class="pink-text">Home</a>
+        <a href="about.html" class="hover:text-pink-300 text-white transition">About</a>
+        <a href="services.html" class="hover:text-pink-300 text-white transition">Services</a>
+        <a href="portfolio.html" class="hover:text-pink-300 text-white transition">Portfolio</a>
+        <a href="all-niches-sites.html" class="hover:text-pink-300 text-white transition">All Niches</a>
+        <a href="blog.html" class="hover:text-pink-300 text-white transition">Blog</a>
+        <a href="FAQs.html" class="hover:text-pink-300 text-white transition">FAQ</a>
+        <a href="contact.html" class="main-btn text-sm px-5 py-2">Contact</a>
+      </div>
+
+      <button class="mobile-menu-btn text-white text-3xl font-bold md:hidden" type="button">☰</button>
     </div>
 
-    <button class="mobile-menu-btn text-white text-3xl md:hidden">☰</button>
-  </div>
-
-  <div class="mobile-menu">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="services.html">Services</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="all-niches-sites.html">All Niches</a>
-    <a href="blog.html">Blog</a>
-    <a href="FAQs.html">FAQ</a>
-    <a href="contact.html">Contact</a>
-  </div>
-</nav>
-
-<header class="hero-bg py-28 px-6 text-center">
-  <div class="max-w-6xl mx-auto">
-    <span class="inline-block border border-pink-300/40 text-pink-200 text-xs font-bold uppercase tracking-[4px] px-5 py-2 rounded-full mb-6">
-      Premium SEO & Link Building Agency
-    </span>
-
-    <h1 class="text-4xl md:text-6xl font-black uppercase leading-tight mb-6">
-      Grow Your Brand With <span class="gold-text">Powerful Authority Links</span>
-    </h1>
-
-    <p class="text-pink-100 text-lg md:text-xl max-w-3xl mx-auto mb-10">
-      Rankvia helps brands, agencies and businesses improve organic visibility through guest posting, niche edits, quality backlinks and white-hat SEO campaigns.
-    </p>
-
-    <div class="flex justify-center gap-4 flex-wrap">
-      <a href="services.html" class="main-btn">View Services</a>
-      <a href="contact.html" class="outline-btn">Order Now</a>
+    <div class="mobile-menu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="all-niches-sites.html">All Niches</a>
+      <a href="blog.html">Blog</a>
+      <a href="FAQs.html">FAQ</a>
+      <a href="contact.html">Contact</a>
     </div>
-  </div>
-</header>
+  </nav>
 
-<section class="py-24 px-6" style="background:#24091d;">
-  <div class="max-w-7xl mx-auto">
-    <div class="glass-card rounded-[32px] p-8 md:p-12">
-      <div class="grid lg:grid-cols-[300px_1fr] gap-10 items-center">
-        <div class="text-center">
-          <div class="w-64 h-64 mx-auto rounded-full p-[4px]" style="background:linear-gradient(135deg,#ff7ac8,#f7d36b);">
-            <img src="areeba-profile.jpg"
-                 alt="Areeba Riaz"
-                 class="w-full h-full rounded-full object-cover object-top"
-                 style="border:4px solid #1a0715;">
+  <!-- HERO -->
+  <header class="hero-bg py-28 px-6 text-center">
+    <div class="max-w-6xl mx-auto">
+      <span class="inline-block border border-pink-300/40 text-pink-200 text-xs font-bold uppercase tracking-[4px] px-5 py-2 rounded-full mb-6">
+        Premium SEO & Link Building Agency
+      </span>
+
+      <h1 class="text-4xl md:text-6xl font-black uppercase leading-tight mb-6 text-white">
+        Rank Higher With <span class="gold-text">Authority Links</span><br>That Actually Work
+      </h1>
+
+      <p class="text-pink-100 text-lg md:text-xl max-w-3xl mx-auto mb-10">
+        Rankvia helps businesses, agencies, and brands grow organic traffic through strategic guest posting, premium backlinks, niche edits, content writing, and white-hat SEO campaigns.
+      </p>
+
+      <div class="flex justify-center gap-4 flex-wrap mb-12">
+        <a href="services.html" class="main-btn">View SEO Services</a>
+        <a href="contact.html" class="outline-btn">Get Free Consultation</a>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-3xl mx-auto">
+        <a href="portfolio.html" style="background:rgba(255,255,255,0.08); border:1px solid rgba(255,122,200,0.3);" class="rounded-2xl py-5 px-6 font-black text-white hover:border-pink-300 transition">
+          ⭐ View Portfolio
+        </a>
+        <a href="all-niches-sites.html" class="main-btn rounded-2xl py-5 px-6 font-black text-center">
+          🚀 All Niche Sites
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- FOUNDER -->
+  <section style="background:#24091d;" class="py-24 px-6">
+    <div class="max-w-7xl mx-auto">
+      <div class="glass-card rounded-[32px] p-8 md:p-12">
+        <div class="grid lg:grid-cols-[300px_1fr] gap-10 items-center">
+          <div class="text-center">
+            <div class="relative inline-block">
+              <div class="absolute inset-0 rounded-full blur-3xl opacity-20" style="background:#ff7ac8;"></div>
+              <div class="relative w-64 h-64 mx-auto rounded-full p-[4px]" style="background:linear-gradient(135deg,#ff7ac8,#f7d36b);">
+                <img src="areeba-profile.jpg" alt="Areeba Riaz" class="w-full h-full rounded-full object-cover object-top" style="border:4px solid #1a0715;">
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <p class="uppercase tracking-[5px] pink-text font-bold text-sm mb-3">Meet The Founder</p>
+            <h2 class="text-5xl font-black text-white mb-4">Areeba Riaz</h2>
+            <span class="inline-block px-6 py-3 rounded-full font-bold text-sm mb-6 text-[#1a0715]" style="background:#ff7ac8;">
+              Founder • Rankvia SEO Agency
+            </span>
+
+            <p class="text-pink-100 text-lg leading-8 max-w-2xl mb-8">
+              Helping agencies, brands, and businesses scale their organic presence through carefully crafted SEO campaigns, guest posting strategies, niche edits, and quality backlink placements.
+            </p>
+
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+              <div class="stat-box"><h3 class="gold-text text-3xl font-black">50K+</h3><p class="text-pink-200 text-sm mt-1">Websites</p></div>
+              <div class="stat-box"><h3 class="gold-text text-3xl font-black">200+</h3><p class="text-pink-200 text-sm mt-1">Projects</p></div>
+              <div class="stat-box"><h3 class="gold-text text-3xl font-black">20+</h3><p class="text-pink-200 text-sm mt-1">Niches</p></div>
+              <div class="stat-box"><h3 class="gold-text text-3xl font-black">Global</h3><p class="text-pink-200 text-sm mt-1">Outreach</p></div>
+            </div>
+
+            <div class="flex flex-wrap gap-4">
+              <a href="https://www.linkedin.com/in/areeba-riaz-seo/" target="_blank" class="w-12 h-12 rounded-full bg-[#0077B5] flex items-center justify-center text-white hover:scale-110 transition"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=61558831401489" target="_blank" class="w-12 h-12 rounded-full bg-blue-600 flex items-center justify-center text-white hover:scale-110 transition"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://wa.me/923179670347" target="_blank" class="w-12 h-12 rounded-full bg-green-500 flex items-center justify-center text-white hover:scale-110 transition"><i class="fab fa-whatsapp"></i></a>
+              <a href="mailto:ceo@rankvia.online" class="w-12 h-12 rounded-full bg-red-500 flex items-center justify-center text-white hover:scale-110 transition"><i class="fas fa-envelope"></i></a>
+              <a href="contact.html" class="main-btn ml-2">Work With Me</a>
+            </div>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
 
-        <div>
-          <p class="uppercase tracking-[5px] pink-text font-bold text-sm mb-3">Founder Profile</p>
-          <h2 class="text-5xl font-black mb-4">Areeba Riaz</h2>
-          <span class="inline-block px-6 py-3 rounded-full font-bold text-sm mb-6 text-[#1a0715]" style="background:#ff7ac8;">
-            Founder • Rankvia SEO Agency
-          </span>
+  <!-- SERVICES -->
+  <section style="background:#1a0715;" class="py-20 px-6">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-14">
+        <p class="uppercase tracking-[3px] text-sm font-black pink-text mb-3">Our Services</p>
+        <h2 class="text-4xl md:text-5xl font-black uppercase mb-4 text-white">
+          Link Building Solutions <span class="gold-text">That Deliver Results</span>
+        </h2>
+        <p class="text-pink-200 max-w-3xl mx-auto">From targeted guest posts to premium niche edits and full-scale authority campaigns — we deliver white-hat SEO that supports long-term ranking growth.</p>
+      </div>
 
-          <p class="text-pink-100 text-lg leading-8 max-w-2xl mb-8">
-            Rankvia is built to help businesses grow with clean, strategic and result-focused SEO campaigns. We focus on quality backlinks, relevant websites, safe anchors and transparent reporting.
-          </p>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="service-card">
+          <div class="icon-box"><i class="fas fa-newspaper"></i></div>
+          <h3 class="text-2xl font-black uppercase mb-3 text-white">Guest Posting</h3>
+          <p class="text-pink-200 mb-5">Strategic article placements on real, relevant websites with quality contextual backlinks and live URL reporting.</p>
+          <ul class="text-sm text-pink-100 space-y-2"><li>✔ Real, indexed websites</li><li>✔ Niche-matched blogs</li><li>✔ Quality placements</li></ul>
+        </div>
 
-          <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
-            <div class="glass-card rounded-xl p-4 text-center"><h3 class="gold-text text-3xl font-black">50K+</h3><p>Sites</p></div>
-            <div class="glass-card rounded-xl p-4 text-center"><h3 class="gold-text text-3xl font-black">200+</h3><p>Projects</p></div>
-            <div class="glass-card rounded-xl p-4 text-center"><h3 class="gold-text text-3xl font-black">20+</h3><p>Niches</p></div>
-            <div class="glass-card rounded-xl p-4 text-center"><h3 class="gold-text text-3xl font-black">Global</h3><p>Reach</p></div>
-          </div>
+        <div class="service-card">
+          <div class="icon-box"><i class="fas fa-link"></i></div>
+          <h3 class="text-2xl font-black uppercase mb-3 text-white">Link Building</h3>
+          <p class="text-pink-200 mb-5">Authority backlinks from trusted domains built through manual outreach to strengthen your ranking signals.</p>
+          <ul class="text-sm text-pink-100 space-y-2"><li>✔ High-authority domains</li><li>✔ Contextual placements</li><li>✔ Manual outreach only</li></ul>
+        </div>
+
+        <div class="service-card">
+          <div class="icon-box"><i class="fas fa-edit"></i></div>
+          <h3 class="text-2xl font-black uppercase mb-3 text-white">Niche Edits</h3>
+          <p class="text-pink-200 mb-5">Backlinks inserted into already-indexed articles for faster and natural authority transfer.</p>
+          <ul class="text-sm text-pink-100 space-y-2"><li>✔ Indexed content pages</li><li>✔ Relevant surrounding text</li><li>✔ Natural link insertion</li></ul>
+        </div>
+
+        <div class="service-card">
+          <div class="icon-box"><i class="fas fa-pen-fancy"></i></div>
+          <h3 class="text-2xl font-black uppercase mb-3 text-white">Content Writing</h3>
+          <p class="text-pink-200 mb-5">SEO-optimized, human-written content for guest posts, landing pages, blogs and outreach campaigns.</p>
+          <ul class="text-sm text-pink-100 space-y-2"><li>✔ SEO-structured articles</li><li>✔ Human-written quality</li><li>✔ Guest post ready</li></ul>
+        </div>
+
+        <div class="service-card">
+          <div class="icon-box"><i class="fas fa-chart-bar"></i></div>
+          <h3 class="text-2xl font-black uppercase mb-3 text-white">Authority Campaigns</h3>
+          <p class="text-pink-200 mb-5">Full-scale campaigns combining guest posts, niche edits, content and backlink strategy for maximum impact.</p>
+          <ul class="text-sm text-pink-100 space-y-2"><li>✔ Multi-channel approach</li><li>✔ Custom link strategy</li><li>✔ Growth reports</li></ul>
+        </div>
+
+        <div class="service-card">
+          <div class="icon-box"><i class="fas fa-globe"></i></div>
+          <h3 class="text-2xl font-black uppercase mb-3 text-white">Local SEO Links</h3>
+          <p class="text-pink-200 mb-5">Local citations, geo-targeted backlinks and authority links designed for local ranking support.</p>
+          <ul class="text-sm text-pink-100 space-y-2"><li>✔ Local citation building</li><li>✔ Maps ranking support</li><li>✔ Geo-targeted links</li></ul>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="py-20 px-6" style="background:#1a0715;">
-  <div class="max-w-7xl mx-auto">
-    <div class="text-center mb-14">
-      <p class="uppercase tracking-[3px] text-sm font-black pink-text mb-3">Our Services</p>
-      <h2 class="text-4xl md:text-5xl font-black uppercase mb-4">
-        Premium SEO Services <span class="gold-text">For Better Rankings</span>
-      </h2>
+  <!-- WHY US -->
+  <section style="background:#24091d;" class="py-20 px-6">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div>
+        <p class="uppercase tracking-[3px] text-sm font-bold pink-text mb-4">Why Choose Rankvia</p>
+        <h2 class="text-4xl md:text-5xl font-black uppercase mb-6 text-white">Links Built For <span class="gold-text">Real Rankings</span></h2>
+        <p class="text-pink-200 mb-7">We do not chase random numbers. Every link is reviewed for relevance, quality, authority signals and safe anchor strategy.</p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="glass-card rounded-xl p-4 text-white">✔ Manual Outreach Only</div>
+          <div class="glass-card rounded-xl p-4 text-white">✔ Quality Websites</div>
+          <div class="glass-card rounded-xl p-4 text-white">✔ Niche-Relevant Sites</div>
+          <div class="glass-card rounded-xl p-4 text-white">✔ White-Hat Methods</div>
+          <div class="glass-card rounded-xl p-4 text-white">✔ Live URL Reports</div>
+          <div class="glass-card rounded-xl p-4 text-white">✔ Fast Turnaround</div>
+        </div>
+      </div>
+
+      <div class="glass-card rounded-3xl p-8">
+        <h3 class="text-2xl font-black mb-5 gold-text">Our Placement Checklist</h3>
+        <ul class="space-y-4 text-pink-100">
+          <li>✔ Niche and topic relevance confirmed</li>
+          <li>✔ Domain quality and authority checked</li>
+          <li>✔ Spam score and toxic profile reviewed</li>
+          <li>✔ Content quality and indexing confirmed</li>
+          <li>✔ Anchor text and URL safety verified</li>
+          <li>✔ Final live URL report delivered</li>
+        </ul>
+      </div>
     </div>
+  </section>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      <div class="service-card"><div class="icon-box"><i class="fas fa-newspaper"></i></div><h3 class="text-2xl font-black mb-3">Guest Posting</h3><p class="text-pink-100">High-quality guest post placements on relevant websites with contextual backlinks.</p></div>
-      <div class="service-card"><div class="icon-box"><i class="fas fa-link"></i></div><h3 class="text-2xl font-black mb-3">Link Building</h3><p class="text-pink-100">Manual outreach backlinks from trusted sites to improve authority and organic growth.</p></div>
-      <div class="service-card"><div class="icon-box"><i class="fas fa-edit"></i></div><h3 class="text-2xl font-black mb-3">Niche Edits</h3><p class="text-pink-100">Backlinks placed inside already indexed articles for fast and natural authority building.</p></div>
-      <div class="service-card"><div class="icon-box"><i class="fas fa-pen-fancy"></i></div><h3 class="text-2xl font-black mb-3">Content Writing</h3><p class="text-pink-100">SEO-friendly content for blogs, guest posts, landing pages and outreach campaigns.</p></div>
-      <div class="service-card"><div class="icon-box"><i class="fas fa-chart-line"></i></div><h3 class="text-2xl font-black mb-3">Complete SEO</h3><p class="text-pink-100">On-page, off-page and content strategy to improve rankings and search visibility.</p></div>
-      <div class="service-card"><div class="icon-box"><i class="fas fa-map-marker-alt"></i></div><h3 class="text-2xl font-black mb-3">Local SEO</h3><p class="text-pink-100">Local citations and geo-targeted links for local business visibility and maps ranking.</p></div>
+  <!-- PROCESS -->
+  <section style="background:#1a0715;" class="py-20 px-6">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-14">
+        <h2 class="text-4xl md:text-5xl font-black uppercase mb-4 text-white">How We <span class="gold-text">Build Your Links</span></h2>
+        <p class="text-pink-200 max-w-3xl mx-auto">A transparent step-by-step process from strategy to live link delivery.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-5 text-center">
+        <div class="glass-card rounded-2xl p-6"><div class="text-3xl font-black gold-text mb-3">01</div><h3 class="font-black mb-2 text-white">Audit</h3><p class="text-sm text-pink-200">We review your site.</p></div>
+        <div class="glass-card rounded-2xl p-6"><div class="text-3xl font-black gold-text mb-3">02</div><h3 class="font-black mb-2 text-white">Strategy</h3><p class="text-sm text-pink-200">We plan links.</p></div>
+        <div class="glass-card rounded-2xl p-6"><div class="text-3xl font-black gold-text mb-3">03</div><h3 class="font-black mb-2 text-white">Outreach</h3><p class="text-sm text-pink-200">We source sites.</p></div>
+        <div class="glass-card rounded-2xl p-6"><div class="text-3xl font-black gold-text mb-3">04</div><h3 class="font-black mb-2 text-white">Content</h3><p class="text-sm text-pink-200">We write content.</p></div>
+        <div class="glass-card rounded-2xl p-6"><div class="text-3xl font-black gold-text mb-3">05</div><h3 class="font-black mb-2 text-white">Placement</h3><p class="text-sm text-pink-200">Links go live.</p></div>
+        <div class="glass-card rounded-2xl p-6"><div class="text-3xl font-black gold-text mb-3">06</div><h3 class="font-black mb-2 text-white">Report</h3><p class="text-sm text-pink-200">You get URLs.</p></div>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="py-20 px-6" style="background:#24091d;">
-  <div class="max-w-5xl mx-auto">
-    <div class="text-center mb-12">
-      <h2 class="text-4xl md:text-5xl font-black uppercase">Frequently Asked <span class="pink-text">Questions</span></h2>
+  <!-- CTA -->
+  <section style="background:#24091d;" class="py-20 px-6">
+    <div class="max-w-6xl mx-auto cta-box p-10 md:p-14 text-center">
+      <h2 class="text-4xl md:text-5xl font-black uppercase mb-5">Ready To Grow Your Website Authority?</h2>
+      <p class="text-lg max-w-3xl mx-auto mb-8">Share your URL and target keywords — we will build a custom link strategy to support your rankings and organic visibility.</p>
+      <div class="flex justify-center gap-4 flex-wrap">
+        <a href="contact.html" class="bg-[#1a0715] text-white px-8 py-4 rounded-full font-black hover:scale-105 transition">Contact Us</a>
+        <a href="services.html" class="bg-white text-[#1a0715] px-8 py-4 rounded-full font-black hover:scale-105 transition">View Services</a>
+        <a href="FAQs.html" class="bg-[#4a1038] text-white px-8 py-4 rounded-full font-black hover:scale-105 transition">Read FAQ</a>
+      </div>
     </div>
+  </section>
 
-    <div class="space-y-5">
-      <div class="glass-card rounded-2xl p-6"><h3 class="font-black text-xl gold-text mb-2">Do you provide live links?</h3><p class="text-pink-100">Yes, every completed order includes live URL reporting.</p></div>
-      <div class="glass-card rounded-2xl p-6"><h3 class="font-black text-xl gold-text mb-2">Are the links white-hat?</h3><p class="text-pink-100">Yes, we focus on manual outreach, real websites and safe link building practices.</p></div>
-      <div class="glass-card rounded-2xl p-6"><h3 class="font-black text-xl gold-text mb-2">Can I choose niche and country?</h3><p class="text-pink-100">Yes, you can request niche, country, traffic level and website quality requirements.</p></div>
+  <!-- FLOATING CONTACT -->
+  <div class="floating-contact">
+    <div class="contact-options">
+      <a href="https://wa.me/923179670347" target="_blank" class="float-btn bg-green-500"><i class="fab fa-whatsapp text-xl"></i></a>
+      <a href="mailto:ceo@rankvia.online" class="float-btn bg-red-500"><i class="fas fa-envelope text-xl"></i></a>
+      <a href="https://www.linkedin.com/in/areeba-riaz-seo/" target="_blank" class="float-btn bg-blue-700"><i class="fab fa-linkedin-in text-xl"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=61558831401489" target="_blank" class="float-btn bg-blue-600"><i class="fab fa-facebook-f text-xl"></i></a>
     </div>
+    <button style="background:#ff7ac8;" class="text-[#1a0715] w-16 h-16 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition">
+      <i class="fas fa-comments text-2xl"></i>
+    </button>
   </div>
-</section>
 
-<section class="py-20 px-6" style="background:#1a0715;">
-  <div class="max-w-6xl mx-auto text-center glass-card rounded-[32px] p-10 md:p-14">
-    <h2 class="text-4xl md:text-5xl font-black uppercase mb-5">
-      Ready To Grow With <span class="gold-text">Rankvia?</span>
-    </h2>
-    <p class="text-pink-100 text-lg max-w-3xl mx-auto mb-8">
-      Send your website URL, target keywords and niche. We will suggest the best SEO and link building plan.
-    </p>
+  <!-- FOOTER -->
+  <footer style="background:#10040d; border-top:1px solid rgba(255,122,200,0.18);" class="pt-16 pb-8 px-6">
+    <div class="max-w-7xl mx-auto grid md:grid-cols-4 gap-10 pb-12" style="border-bottom:1px solid rgba(255,122,200,0.12);">
+      <div>
+        <h3 class="text-2xl font-black mb-5 text-white">RANK<span class="pink-text">VIA</span></h3>
+        <p class="text-pink-200 mb-5">Your trusted partner for SEO, guest posting, link building and organic authority growth campaigns.</p>
+        <div class="flex gap-4 text-xl mb-5">
+          <a href="https://www.linkedin.com/in/areeba-riaz-seo/" target="_blank" class="hover:text-blue-400 text-pink-200"><i class="fab fa-linkedin"></i></a>
+          <a href="https://wa.me/923179670347" target="_blank" class="hover:text-green-400 text-pink-200"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=61558831401489" target="_blank" class="hover:text-blue-500 text-pink-200"><i class="fab fa-facebook"></i></a>
+        </div>
+      </div>
 
-    <div class="flex justify-center gap-4 flex-wrap">
-      <a href="mailto:ceo@rankvia.online" class="main-btn">Email Us</a>
-      <a href="https://wa.me/923179670347" target="_blank" class="outline-btn">WhatsApp</a>
-      <a href="contact.html" class="main-btn">Order Now</a>
-    </div>
-  </div>
-</section>
+      <div>
+        <h3 class="text-lg font-bold mb-5 pink-text">Quick Links</h3>
+        <ul class="text-pink-200 space-y-3">
+          <li><a href="services.html" class="hover:text-pink-300">Services</a></li>
+          <li><a href="portfolio.html" class="hover:text-pink-300">Portfolio</a></li>
+          <li><a href="all-niches-sites.html" class="hover:text-pink-300">All Niches</a></li>
+          <li><a href="blog.html" class="hover:text-pink-300">Blog</a></li>
+          <li><a href="FAQs.html" class="hover:text-pink-300">FAQ</a></li>
+          <li><a href="contact.html" class="hover:text-pink-300">Order Now</a></li>
+        </ul>
+      </div>
 
-<div class="floating-contact">
-  <div class="contact-options">
-    <a href="https://www.linkedin.com/in/areeba-riaz-seo/" target="_blank" class="float-btn bg-blue-700"><i class="fab fa-linkedin-in text-xl"></i></a>
-    <a href="mailto:ceo@rankvia.online" class="float-btn bg-red-500"><i class="fas fa-envelope text-xl"></i></a>
-    <a href="https://wa.me/923179670347" target="_blank" class="float-btn bg-green-500"><i class="fab fa-whatsapp text-xl"></i></a>
-  </div>
-  <button class="w-16 h-16 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition text-[#1a0715]"
-          style="background:linear-gradient(135deg,#ff7ac8,#f7d36b);">
-    <i class="fas fa-comments text-2xl"></i>
-  </button>
-</div>
+      <div>
+        <h3 class="text-lg font-bold mb-5 pink-text">Legal</h3>
+        <ul class="text-pink-200 space-y-3">
+          <li><a href="privacy.html" class="hover:text-pink-300">Privacy Policy</a></li>
+          <li><a href="terms.html" class="hover:text-pink-300">Terms of Use</a></li>
+          <li><a href="refund.html" class="hover:text-pink-300">Refund Policy</a></li>
+        </ul>
+      </div>
 
-<footer class="pt-16 pb-8 px-6" style="background:#10040d; border-top:1px solid rgba(255,122,200,0.18);">
-  <div class="max-w-7xl mx-auto grid md:grid-cols-4 gap-10 pb-12" style="border-bottom:1px solid rgba(255,122,200,0.12);">
-    <div>
-      <h3 class="text-2xl font-black mb-5">RANK<span class="pink-text">VIA</span></h3>
-      <p class="text-pink-200 mb-5">Premium SEO, guest posting and link building agency for authority growth.</p>
-      <div class="flex gap-4 text-xl">
-        <a href="https://www.linkedin.com/in/areeba-riaz-seo/" target="_blank" class="hover:text-pink-300"><i class="fab fa-linkedin"></i></a>
-        <a href="https://wa.me/923179670347" target="_blank" class="hover:text-green-400"><i class="fab fa-whatsapp"></i></a>
-        <a href="https://www.facebook.com/profile.php?id=61558831401489" target="_blank" class="hover:text-blue-400"><i class="fab fa-facebook"></i></a>
+      <div>
+        <h3 class="text-lg font-bold mb-5 pink-text">Contact</h3>
+        <p class="text-pink-200 mb-3"><i class="fas fa-envelope mr-2 gold-text"></i><a href="mailto:ceo@rankvia.online" class="hover:text-pink-300">ceo@rankvia.online</a></p>
+        <p class="text-pink-200 mb-3"><i class="fas fa-envelope mr-2 gold-text"></i><a href="mailto:areebaseoexpert2@gmail.com" class="hover:text-pink-300">areebaseoexpert2@gmail.com</a></p>
+        <p class="text-pink-200 mb-6"><i class="fab fa-whatsapp mr-2 gold-text"></i><a href="https://wa.me/923179670347" target="_blank" class="hover:text-green-400">+92 317 9670347</a></p>
+
+        <p class="text-xs font-bold uppercase text-pink-300 mb-3 tracking-widest">We Accept</p>
+        <div class="flex flex-wrap gap-3 items-center">
+          <img src="https://img.icons8.com/color/96/paypal.png" alt="PayPal" class="h-7">
+          <img src="https://img.icons8.com/color/96/payoneer.png" alt="Payoneer" class="h-7">
+          <img src="https://img.icons8.com/color/96/visa.png" alt="Visa" class="h-6">
+          <img src="https://img.icons8.com/color/96/mastercard-logo.png" alt="Mastercard" class="h-7">
+        </div>
       </div>
     </div>
 
-    <div>
-      <h3 class="text-lg font-bold mb-5 pink-text">Quick Links</h3>
-      <ul class="text-pink-200 space-y-3">
-        <li><a href="services.html" class="hover:text-pink-300">Services</a></li>
-        <li><a href="portfolio.html" class="hover:text-pink-300">Portfolio</a></li>
-        <li><a href="all-niches-sites.html" class="hover:text-pink-300">All Niches</a></li>
-        <li><a href="blog.html" class="hover:text-pink-300">Blog</a></li>
-        <li><a href="FAQs.html" class="hover:text-pink-300">FAQ</a></li>
-        <li><a href="contact.html" class="hover:text-pink-300">Order Now</a></li>
-      </ul>
-    </div>
+    <p class="text-center mt-8 text-pink-300 text-sm">© 2026 Rankvia SEO Agency. All Rights Reserved.</p>
+  </footer>
 
-    <div>
-      <h3 class="text-lg font-bold mb-5 pink-text">Legal</h3>
-      <ul class="text-pink-200 space-y-3">
-        <li><a href="privacy.html" class="hover:text-pink-300">Privacy Policy</a></li>
-        <li><a href="terms.html" class="hover:text-pink-300">Terms of Use</a></li>
-        <li><a href="refund.html" class="hover:text-pink-300">Refund Policy</a></li>
-      </ul>
-    </div>
+  <script>
+    const menuBtn = document.querySelector('.mobile-menu-btn');
+    const mobileMenu = document.querySelector('.mobile-menu');
 
-    <div>
-      <h3 class="text-lg font-bold mb-5 pink-text">Contact</h3>
-      <p class="text-pink-200 mb-3"><i class="fas fa-envelope mr-2 gold-text"></i><a href="mailto:ceo@rankvia.online">ceo@rankvia.online</a></p>
-      <p class="text-pink-200 mb-3"><i class="fas fa-envelope mr-2 gold-text"></i><a href="mailto:areebaseoexpert2@gmail.com">areebaseoexpert2@gmail.com</a></p>
-      <p class="text-pink-200 mb-6"><i class="fab fa-whatsapp mr-2 gold-text"></i><a href="https://wa.me/923179670347" target="_blank">+92 317 9670347</a></p>
-
-      <p class="text-xs font-bold uppercase text-pink-300 mb-3 tracking-widest">We Accept</p>
-      <div class="flex flex-wrap gap-3 items-center">
-        <img src="https://img.icons8.com/color/96/paypal.png" alt="PayPal" class="h-7">
-        <img src="https://img.icons8.com/color/96/payoneer.png" alt="Payoneer" class="h-7">
-        <img src="https://img.icons8.com/color/96/visa.png" alt="Visa" class="h-6">
-        <img src="https://img.icons8.com/color/96/mastercard-logo.png" alt="Mastercard" class="h-7">
-      </div>
-    </div>
-  </div>
-
-  <p class="text-center mt-8 text-pink-300 text-sm">© 2026 Rankvia SEO Agency. All Rights Reserved.</p>
-</footer>
-
-<script>
-  const menuBtn = document.querySelector('.mobile-menu-btn');
-  const mobileMenu = document.querySelector('.mobile-menu');
-  if (menuBtn && mobileMenu) {
-    menuBtn.addEventListener('click', function() {
-      mobileMenu.classList.toggle('active');
-    });
-  }
-</script>
+    if (menuBtn && mobileMenu) {
+      menuBtn.addEventListener('click', function() {
+        mobileMenu.classList.toggle('active');
+      });
+    }
+  </script>
 
 </body>
 </html>
