@@ -137,18 +137,25 @@
         Tell Us What You Need
       </h2>
       <p class="text-pink-100 mt-4 max-w-3xl mx-auto">
-        Fill this form style section. You can connect it later with Formspree, Google Forms or any CRM.
+        Share your website details and required service. Our team will review your project and get back to you.
       </p>
     </div>
 
-    <form action="mailto:ceo@rankvia.online" method="post" enctype="text/plain" class="grid md:grid-cols-2 gap-5">
+    <form action="https://formsubmit.co/areebaseoexpert2@gmail.com" method="POST" class="grid md:grid-cols-2 gap-5">
+
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_subject" value="New Contact Form Submission - Rankvia">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_next" value="https://rankvia.online/contact.html">
+      <input type="text" name="_honey" style="display:none">
+
       <input type="text" name="Name" placeholder="Your Name" required>
       <input type="email" name="Email" placeholder="Your Email" required>
       <input type="text" name="Website" placeholder="Website URL">
       <input type="text" name="Niche" placeholder="Your Niche / Industry">
 
-      <select name="Service">
-        <option value="">Select Service</option>
+      <select name="Service" required>
+        <option value="" disabled selected>Select Service</option>
         <option>Guest Posting</option>
         <option>Link Building</option>
         <option>Niche Edits</option>
@@ -159,7 +166,7 @@
 
       <input type="text" name="Country" placeholder="Target Country">
 
-      <textarea name="Message" rows="6" placeholder="Write your requirements..." class="md:col-span-2"></textarea>
+      <textarea name="Message" rows="6" placeholder="Write your requirements..." required class="md:col-span-2"></textarea>
 
       <div class="md:col-span-2 text-center mt-4">
         <button type="submit" class="main-btn">Send Request</button>
