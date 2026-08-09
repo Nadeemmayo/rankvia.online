@@ -1,0 +1,23 @@
+title: Rankvia
+description: Rankvia SEO Agency - Guest Posting, Link Building, Authority Backlinks and Off-Page SEO Services.
+url: "https://rankvia.online"
+baseurl: ""
+
+markdown: kramdown
+
+permalink: /blog/:title.html
+
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+exclude:
+  - admin
+  - README.md
