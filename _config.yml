@@ -1,5 +1,5 @@
 title: Rankvia
-description: Rankvia SEO Agency - Guest Posting, Link Building, Authority Backlinks and Off-Page SEO Services.
+description: "Rankvia SEO Agency - Guest Posting, Link Building, Authority Backlinks and Off-Page SEO Services."
 url: "https://rankvia.online"
 baseurl: ""
 
@@ -19,5 +19,4 @@ defaults:
       layout: "post"
 
 exclude:
-  - admin
   - README.md
