@@ -1,13 +1,12 @@
 ---
-layout: null
 ---
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Google tag (gtag.js) -->
+  <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-DWMYTTNB2F"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -15,10 +14,6 @@ layout: null
     gtag('js', new Date());
     gtag('config', 'G-DWMYTTNB2F');
   </script>
-
-  <link rel="canonical" href="https://rankvia.online/blog.html" />
-
-  <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" rx="24" fill="%23ff7ac8"/><text x="50" y="62" text-anchor="middle" font-size="42" font-family="Arial" font-weight="900" fill="%231a0715">RV</text></svg>'>
 
   <title>Rankvia Blog | SEO, Guest Posting & Link Building Insights</title>
 
@@ -28,12 +23,16 @@ layout: null
   >
 
   <meta name="author" content="Rankvia">
+  <meta name="robots" content="index, follow, max-image-preview:large">
 
-  <meta
-    name="robots"
-    content="index, follow, max-image-preview:large"
+  <link rel="canonical" href="https://rankvia.online/blog.html">
+
+  <link
+    rel="icon"
+    href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" rx="24" fill="%23ff7ac8"/><text x="50" y="62" text-anchor="middle" font-size="42" font-family="Arial" font-weight="900" fill="%231a0715">RV</text></svg>'
   >
 
+  <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Rankvia">
 
@@ -57,6 +56,7 @@ layout: null
     content="https://rankvia.online/preview.jpg"
   >
 
+  <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
 
   <meta
@@ -74,8 +74,10 @@ layout: null
     content="https://rankvia.online/preview.jpg"
   >
 
+  <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
 
+  <!-- Font Awesome -->
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
@@ -89,8 +91,8 @@ layout: null
     body {
       margin: 0;
       background: #1a0715;
-      color: #fff;
-      font-family: Arial, sans-serif;
+      color: #ffffff;
+      font-family: Arial, Helvetica, sans-serif;
       overflow-x: hidden;
     }
 
@@ -127,7 +129,7 @@ layout: null
       align-items: center;
       justify-content: center;
       gap: 8px;
-      transition: .3s;
+      transition: 0.3s;
     }
 
     .main-btn:hover {
@@ -135,12 +137,12 @@ layout: null
     }
 
     .blog-card {
-      background: #fff;
+      background: #ffffff;
       color: #1a0715;
       border-radius: 24px;
       overflow: hidden;
-      transition: .35s;
-      box-shadow: 0 18px 45px rgba(0,0,0,.22);
+      transition: 0.35s;
+      box-shadow: 0 18px 45px rgba(0,0,0,0.22);
       display: flex;
       flex-direction: column;
       height: 100%;
@@ -148,12 +150,17 @@ layout: null
 
     .blog-card:hover {
       transform: translateY(-10px);
-      box-shadow: 0 25px 60px rgba(255,122,200,.28);
+      box-shadow: 0 25px 60px rgba(255,122,200,0.28);
     }
 
     .blog-image {
       height: 210px;
-      background: linear-gradient(135deg,#4a1038,#ff7ac8,#f7d36b);
+      background: linear-gradient(
+        135deg,
+        #4a1038,
+        #ff7ac8,
+        #f7d36b
+      );
       display: flex;
       align-items: center;
       justify-content: center;
@@ -166,8 +173,8 @@ layout: null
       position: absolute;
       bottom: 14px;
       right: 14px;
-      background: rgba(26,7,21,.85);
-      color: #fff;
+      background: rgba(26,7,21,0.85);
+      color: #ffffff;
       font-size: 10px;
       font-weight: 900;
       padding: 6px 12px;
@@ -187,7 +194,7 @@ layout: null
 
     .blog-image i {
       font-size: 58px;
-      color: rgba(255,255,255,.88);
+      color: rgba(255,255,255,0.88);
       position: relative;
       z-index: 2;
     }
@@ -202,7 +209,7 @@ layout: null
     .category-pill {
       display: inline-block;
       align-self: flex-start;
-      background: rgba(255,122,200,.16);
+      background: rgba(255,122,200,0.16);
       color: #b83280;
       padding: 7px 14px;
       border-radius: 999px;
@@ -224,7 +231,7 @@ layout: null
       font-size: 12px;
       border-bottom: 2px solid #b83280;
       padding-bottom: 4px;
-      transition: .3s;
+      transition: 0.3s;
     }
 
     .read-link:hover {
@@ -241,7 +248,7 @@ layout: null
       display: block;
     }
 
-    @media(max-width:768px) {
+    @media (max-width: 768px) {
       .desktop-menu {
         display: none !important;
       }
@@ -249,17 +256,17 @@ layout: null
       .mobile-menu {
         background: #1a0715;
         padding: 18px 24px;
-        border-top: 1px solid rgba(255,122,200,.2);
+        border-top: 1px solid rgba(255,122,200,0.2);
       }
 
       .mobile-menu a {
         display: block;
         padding: 12px 0;
-        color: white;
+        color: #ffffff;
         font-weight: bold;
         font-size: 13px;
         text-transform: uppercase;
-        border-bottom: 1px solid rgba(255,122,200,.12);
+        border-bottom: 1px solid rgba(255,122,200,0.12);
       }
 
       .blog-image {
@@ -268,6 +275,7 @@ layout: null
     }
   </style>
 
+  <!-- Blog Schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -282,7 +290,6 @@ layout: null
     }
   }
   </script>
-
 </head>
 
 <body>
@@ -305,35 +312,59 @@ layout: null
 
     <div class="desktop-menu hidden md:flex gap-5 font-bold text-xs uppercase items-center">
 
-      <a href="{{ '/' | relative_url }}" class="hover:text-pink-300 text-white">
+      <a
+        href="{{ '/' | relative_url }}"
+        class="hover:text-pink-300 text-white"
+      >
         Home
       </a>
 
-      <a href="{{ '/about.html' | relative_url }}" class="hover:text-pink-300 text-white">
+      <a
+        href="{{ '/about.html' | relative_url }}"
+        class="hover:text-pink-300 text-white"
+      >
         About
       </a>
 
-      <a href="{{ '/services.html' | relative_url }}" class="hover:text-pink-300 text-white">
+      <a
+        href="{{ '/services.html' | relative_url }}"
+        class="hover:text-pink-300 text-white"
+      >
         Services
       </a>
 
-      <a href="{{ '/portfolio.html' | relative_url }}" class="hover:text-pink-300 text-white">
+      <a
+        href="{{ '/portfolio.html' | relative_url }}"
+        class="hover:text-pink-300 text-white"
+      >
         Portfolio
       </a>
 
-      <a href="{{ '/all-niches-sites.html' | relative_url }}" class="hover:text-pink-300 text-white">
+      <a
+        href="{{ '/all-niches-sites.html' | relative_url }}"
+        class="hover:text-pink-300 text-white"
+      >
         All Niches
       </a>
 
-      <a href="{{ '/blog.html' | relative_url }}" class="pink-text">
+      <a
+        href="{{ '/blog.html' | relative_url }}"
+        class="pink-text"
+      >
         Blog
       </a>
 
-      <a href="{{ '/FAQs.html' | relative_url }}" class="hover:text-pink-300 text-white">
+      <a
+        href="{{ '/FAQs.html' | relative_url }}"
+        class="hover:text-pink-300 text-white"
+      >
         FAQ
       </a>
 
-      <a href="{{ '/contact.html' | relative_url }}" class="main-btn text-sm px-5 py-2">
+      <a
+        href="{{ '/contact.html' | relative_url }}"
+        class="main-btn text-sm px-5 py-2"
+      >
         Contact
       </a>
 
@@ -353,13 +384,37 @@ layout: null
   <div class="mobile-menu">
 
     <a href="{{ '/' | relative_url }}">Home</a>
-    <a href="{{ '/about.html' | relative_url }}">About</a>
-    <a href="{{ '/services.html' | relative_url }}">Services</a>
-    <a href="{{ '/portfolio.html' | relative_url }}">Portfolio</a>
-    <a href="{{ '/all-niches-sites.html' | relative_url }}">All Niches</a>
-    <a href="{{ '/blog.html' | relative_url }}" class="pink-text">Blog</a>
-    <a href="{{ '/FAQs.html' | relative_url }}">FAQ</a>
-    <a href="{{ '/contact.html' | relative_url }}">Contact</a>
+
+    <a href="{{ '/about.html' | relative_url }}">
+      About
+    </a>
+
+    <a href="{{ '/services.html' | relative_url }}">
+      Services
+    </a>
+
+    <a href="{{ '/portfolio.html' | relative_url }}">
+      Portfolio
+    </a>
+
+    <a href="{{ '/all-niches-sites.html' | relative_url }}">
+      All Niches
+    </a>
+
+    <a
+      href="{{ '/blog.html' | relative_url }}"
+      class="pink-text"
+    >
+      Blog
+    </a>
+
+    <a href="{{ '/FAQs.html' | relative_url }}">
+      FAQ
+    </a>
+
+    <a href="{{ '/contact.html' | relative_url }}">
+      Contact
+    </a>
 
   </div>
 
@@ -371,16 +426,24 @@ layout: null
 
   <div class="max-w-6xl mx-auto">
 
-    <span class="inline-block border border-pink-300/40 text-pink-200 text-xs font-bold uppercase tracking-[4px] px-5 py-2 rounded-full mb-6">
+    <span
+      class="inline-block border border-pink-300/40 text-pink-200 text-xs font-bold uppercase tracking-[4px] px-5 py-2 rounded-full mb-6"
+    >
       SEO Knowledge Hub
     </span>
 
-    <h1 class="text-4xl md:text-6xl font-black uppercase leading-tight mb-6">
+    <h1
+      class="text-4xl md:text-6xl font-black uppercase leading-tight mb-6"
+    >
       SEO Insights, Link Building &
-      <span class="gold-text">Ranking Strategies</span>
+      <span class="gold-text">
+        Ranking Strategies
+      </span>
     </h1>
 
-    <p class="text-pink-100 text-lg md:text-xl max-w-3xl mx-auto mb-9 leading-8">
+    <p
+      class="text-pink-100 text-lg md:text-xl max-w-3xl mx-auto mb-9 leading-8"
+    >
       Learn practical SEO, guest posting, backlinks, niche edits,
       authority building and off-page SEO strategies to grow organic visibility.
     </p>
@@ -392,7 +455,10 @@ layout: null
         Explore SEO Guides
       </a>
 
-      <a href="{{ '/contact.html' | relative_url }}" class="main-btn">
+      <a
+        href="{{ '/contact.html' | relative_url }}"
+        class="main-btn"
+      >
         <i class="fas fa-comments"></i>
         Get Consultation
       </a>
@@ -405,9 +471,14 @@ layout: null
 
 <!-- TOPICS -->
 
-<section class="py-10 px-6" style="background:#24091d;">
+<section
+  class="py-10 px-6"
+  style="background:#24091d;"
+>
 
-  <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-5 text-center">
+  <div
+    class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-5 text-center"
+  >
 
     <div class="glass-card rounded-2xl p-6">
 
@@ -460,19 +531,26 @@ layout: null
 <section
   id="articles"
   class="py-20 px-6 scroll-mt-24"
-  style="background:#fff;"
+  style="background:#ffffff;"
 >
 
   <div class="max-w-7xl mx-auto">
 
     <div class="text-center mb-14">
 
-      <p class="uppercase tracking-[3px] text-sm font-black text-[#b83280] mb-3">
+      <p
+        class="uppercase tracking-[3px] text-sm font-black text-[#b83280] mb-3"
+      >
         Latest SEO Articles
       </p>
 
-      <h2 class="text-4xl md:text-5xl font-black uppercase mb-4 text-[#1a0715]">
-        Expert <span class="text-[#b83280]">SEO Guides</span>
+      <h2
+        class="text-4xl md:text-5xl font-black uppercase mb-4 text-[#1a0715]"
+      >
+        Expert
+        <span class="text-[#b83280]">
+          SEO Guides
+        </span>
       </h2>
 
       <p class="text-gray-600 max-w-3xl mx-auto">
@@ -482,7 +560,11 @@ layout: null
 
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    {% if site.posts.size > 0 %}
+
+    <div
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+    >
 
       {% for post in site.posts %}
 
@@ -518,14 +600,34 @@ layout: null
 
           {% endif %}
 
-          <h3 class="text-2xl font-black mt-5 mb-4 leading-tight uppercase">
+          <h3
+            class="text-2xl font-black mt-5 mb-4 leading-tight uppercase"
+          >
             {{ post.title | escape }}
           </h3>
+
+          {% if post.date %}
+
+          <p class="text-gray-500 text-xs mb-3">
+            {{ post.date | date: "%B %d, %Y" }}
+
+            {% if post.author %}
+              • {{ post.author | escape }}
+            {% endif %}
+          </p>
+
+          {% endif %}
 
           {% if post.description %}
 
           <p class="text-gray-600 text-sm mb-6 leading-7">
-            {{ post.description | escape }}
+            {{ post.description | strip_html | truncate: 170 }}
+          </p>
+
+          {% else %}
+
+          <p class="text-gray-600 text-sm mb-6 leading-7">
+            {{ post.excerpt | strip_html | truncate: 170 }}
           </p>
 
           {% endif %}
@@ -544,25 +646,29 @@ layout: null
 
       {% endfor %}
 
-      {% if site.posts.size == 0 %}
+    </div>
 
-      <div class="col-span-full text-center py-14">
+    {% else %}
 
-        <i class="fas fa-pen-nib text-5xl text-[#b83280] mb-5"></i>
+    <div class="text-center py-14">
 
-        <h3 class="text-2xl font-black text-[#1a0715] mb-3">
-          New SEO Articles Coming Soon
-        </h3>
+      <i
+        class="fas fa-pen-nib text-5xl text-[#b83280] mb-5"
+      ></i>
 
-        <p class="text-gray-600">
-          New Rankvia SEO guides will appear here automatically.
-        </p>
+      <h3
+        class="text-2xl font-black text-[#1a0715] mb-3"
+      >
+        New SEO Articles Coming Soon
+      </h3>
 
-      </div>
-
-      {% endif %}
+      <p class="text-gray-600">
+        New Rankvia SEO guides will appear here automatically.
+      </p>
 
     </div>
+
+    {% endif %}
 
   </div>
 
@@ -570,30 +676,48 @@ layout: null
 
 <!-- CTA -->
 
-<section class="py-20 px-6" style="background:#1a0715;">
+<section
+  class="py-20 px-6"
+  style="background:#1a0715;"
+>
 
-  <div class="max-w-6xl mx-auto glass-card rounded-[32px] p-10 md:p-14 text-center">
+  <div
+    class="max-w-6xl mx-auto glass-card rounded-[32px] p-10 md:p-14 text-center"
+  >
 
-    <h2 class="text-4xl md:text-5xl font-black uppercase mb-5">
+    <h2
+      class="text-4xl md:text-5xl font-black uppercase mb-5"
+    >
       Ready To Grow Your Rankings?
     </h2>
 
-    <p class="text-pink-100 text-lg max-w-3xl mx-auto mb-8">
+    <p
+      class="text-pink-100 text-lg max-w-3xl mx-auto mb-8"
+    >
       Let Rankvia help you build authority with guest posting,
       link building, niche edits and professional off-page SEO campaigns.
     </p>
 
     <div class="flex justify-center gap-4 flex-wrap">
 
-      <a href="{{ '/contact.html' | relative_url }}" class="main-btn">
+      <a
+        href="{{ '/contact.html' | relative_url }}"
+        class="main-btn"
+      >
         Contact Us
       </a>
 
-      <a href="{{ '/all-niches-sites.html' | relative_url }}" class="main-btn">
+      <a
+        href="{{ '/all-niches-sites.html' | relative_url }}"
+        class="main-btn"
+      >
         View Niches
       </a>
 
-      <a href="{{ '/FAQs.html' | relative_url }}" class="main-btn">
+      <a
+        href="{{ '/FAQs.html' | relative_url }}"
+        class="main-btn"
+      >
         Read FAQ
       </a>
 
@@ -624,8 +748,9 @@ layout: null
 
 </footer>
 
-<script>
+<!-- MOBILE MENU SCRIPT -->
 
+<script>
   const menuBtn = document.querySelector('.mobile-menu-btn');
   const mobileMenu = document.querySelector('.mobile-menu');
 
@@ -635,36 +760,837 @@ layout: null
 
       mobileMenu.classList.toggle('active');
 
-      const isOpen = mobileMenu.classList.contains('active');
+      const isOpen =
+        mobileMenu.classList.contains('active');
 
       menuBtn.setAttribute(
         'aria-expanded',
         String(isOpen)
       );
 
-      menuBtn.textContent = isOpen ? '✕' : '☰';
+      menuBtn.textContent =
+        isOpen ? '✕' : '☰';
 
     });
 
-    mobileMenu.querySelectorAll('a').forEach(function(link) {
+    mobileMenu
+      .querySelectorAll('a')
+      .forEach(function(link) {
 
-      link.addEventListener('click', function() {
+        link.addEventListener('click', function() {
 
-        mobileMenu.classList.remove('active');
+          mobileMenu.classList.remove('active');
 
-        menuBtn.setAttribute(
-          'aria-expanded',
-          'false'
-        );
+          menuBtn.setAttribute(
+            'aria-expanded',
+            'false'
+          );
 
-        menuBtn.textContent = '☰';
+          menuBtn.textContent = '☰';
+
+        });
 
       });
 
+  }
+</script>
+
+</body>
+</html>---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DWMYTTNB2F"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-DWMYTTNB2F');
+  </script>
+
+  <title>Rankvia Blog | SEO, Guest Posting & Link Building Insights</title>
+
+  <meta
+    name="description"
+    content="Read Rankvia SEO insights about guest posting, link building, niche edits, backlinks, authority building and off-page SEO strategies."
+  >
+
+  <meta name="author" content="Rankvia">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+
+  <link rel="canonical" href="https://rankvia.online/blog.html">
+
+  <link
+    rel="icon"
+    href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" rx="24" fill="%23ff7ac8"/><text x="50" y="62" text-anchor="middle" font-size="42" font-family="Arial" font-weight="900" fill="%231a0715">RV</text></svg>'
+  >
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Rankvia">
+
+  <meta
+    property="og:title"
+    content="Rankvia Blog | SEO, Guest Posting & Link Building Insights"
+  >
+
+  <meta
+    property="og:description"
+    content="Read practical SEO guides about guest posting, authority backlinks, niche edits, link building and off-page SEO growth."
+  >
+
+  <meta
+    property="og:url"
+    content="https://rankvia.online/blog.html"
+  >
+
+  <meta
+    property="og:image"
+    content="https://rankvia.online/preview.jpg"
+  >
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+
+  <meta
+    name="twitter:title"
+    content="Rankvia Blog | SEO & Link Building Insights"
+  >
+
+  <meta
+    name="twitter:description"
+    content="Explore practical guest posting, backlink, authority building and off-page SEO guides from Rankvia."
+  >
+
+  <meta
+    name="twitter:image"
+    content="https://rankvia.online/preview.jpg"
+  >
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  >
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: #1a0715;
+      color: #ffffff;
+      font-family: Arial, Helvetica, sans-serif;
+      overflow-x: hidden;
+    }
+
+    .hero-bg {
+      background: linear-gradient(
+        135deg,
+        #1a0715 0%,
+        #4a1038 45%,
+        #b83280 100%
+      );
+    }
+
+    .pink-text {
+      color: #ff7ac8;
+    }
+
+    .gold-text {
+      color: #f7d36b;
+    }
+
+    .glass-card {
+      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255,122,200,0.25);
+      backdrop-filter: blur(12px);
+    }
+
+    .main-btn {
+      background: linear-gradient(135deg,#ff7ac8,#f7d36b);
+      color: #1a0715;
+      font-weight: 900;
+      border-radius: 999px;
+      padding: 14px 30px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: 0.3s;
+    }
+
+    .main-btn:hover {
+      transform: scale(1.05);
+    }
+
+    .blog-card {
+      background: #ffffff;
+      color: #1a0715;
+      border-radius: 24px;
+      overflow: hidden;
+      transition: 0.35s;
+      box-shadow: 0 18px 45px rgba(0,0,0,0.22);
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    .blog-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 25px 60px rgba(255,122,200,0.28);
+    }
+
+    .blog-image {
+      height: 210px;
+      background: linear-gradient(
+        135deg,
+        #4a1038,
+        #ff7ac8,
+        #f7d36b
+      );
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .blog-image::after {
+      content: "RANKVIA INSIGHTS";
+      position: absolute;
+      bottom: 14px;
+      right: 14px;
+      background: rgba(26,7,21,0.85);
+      color: #ffffff;
+      font-size: 10px;
+      font-weight: 900;
+      padding: 6px 12px;
+      border-radius: 999px;
+      letter-spacing: 1px;
+      z-index: 3;
+    }
+
+    .blog-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      position: relative;
+      z-index: 1;
+    }
+
+    .blog-image i {
+      font-size: 58px;
+      color: rgba(255,255,255,0.88);
+      position: relative;
+      z-index: 2;
+    }
+
+    .blog-content {
+      padding: 28px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+
+    .category-pill {
+      display: inline-block;
+      align-self: flex-start;
+      background: rgba(255,122,200,0.16);
+      color: #b83280;
+      padding: 7px 14px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .read-link {
+      display: inline-flex;
+      align-items: center;
+      align-self: flex-start;
+      gap: 8px;
+      margin-top: auto;
+      color: #b83280;
+      font-weight: 900;
+      text-transform: uppercase;
+      font-size: 12px;
+      border-bottom: 2px solid #b83280;
+      padding-bottom: 4px;
+      transition: 0.3s;
+    }
+
+    .read-link:hover {
+      color: #4a1038;
+      border-color: #4a1038;
+      gap: 12px;
+    }
+
+    .mobile-menu {
+      display: none;
+    }
+
+    .mobile-menu.active {
+      display: block;
+    }
+
+    @media (max-width: 768px) {
+      .desktop-menu {
+        display: none !important;
+      }
+
+      .mobile-menu {
+        background: #1a0715;
+        padding: 18px 24px;
+        border-top: 1px solid rgba(255,122,200,0.2);
+      }
+
+      .mobile-menu a {
+        display: block;
+        padding: 12px 0;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 13px;
+        text-transform: uppercase;
+        border-bottom: 1px solid rgba(255,122,200,0.12);
+      }
+
+      .blog-image {
+        height: 190px;
+      }
+    }
+  </style>
+
+  <!-- Blog Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "Rankvia SEO Blog",
+    "url": "https://rankvia.online/blog.html",
+    "description": "SEO blog by Rankvia covering guest posting, link building, niche edits, authority backlinks and off-page SEO strategies.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Rankvia",
+      "url": "https://rankvia.online/"
+    }
+  }
+  </script>
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+
+<nav
+  style="background:#1a0715;border-bottom:1px solid rgba(255,122,200,.22);"
+  class="sticky top-0 z-50"
+>
+
+  <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+
+    <a
+      href="{{ '/' | relative_url }}"
+      class="text-2xl font-black text-white"
+    >
+      RANK<span class="pink-text">VIA</span>
+    </a>
+
+    <div class="desktop-menu hidden md:flex gap-5 font-bold text-xs uppercase items-center">
+
+      <a
+        href="{{ '/' | relative_url }}"
+        class="hover:text-pink-300 text-white"
+      >
+        Home
+      </a>
+
+      <a
+        href="{{ '/about.html' | relative_url }}"
+        class="hover:text-pink-300 text-white"
+      >
+        About
+      </a>
+
+      <a
+        href="{{ '/services.html' | relative_url }}"
+        class="hover:text-pink-300 text-white"
+      >
+        Services
+      </a>
+
+      <a
+        href="{{ '/portfolio.html' | relative_url }}"
+        class="hover:text-pink-300 text-white"
+      >
+        Portfolio
+      </a>
+
+      <a
+        href="{{ '/all-niches-sites.html' | relative_url }}"
+        class="hover:text-pink-300 text-white"
+      >
+        All Niches
+      </a>
+
+      <a
+        href="{{ '/blog.html' | relative_url }}"
+        class="pink-text"
+      >
+        Blog
+      </a>
+
+      <a
+        href="{{ '/FAQs.html' | relative_url }}"
+        class="hover:text-pink-300 text-white"
+      >
+        FAQ
+      </a>
+
+      <a
+        href="{{ '/contact.html' | relative_url }}"
+        class="main-btn text-sm px-5 py-2"
+      >
+        Contact
+      </a>
+
+    </div>
+
+    <button
+      class="mobile-menu-btn text-white text-3xl font-bold md:hidden"
+      type="button"
+      aria-label="Open navigation menu"
+      aria-expanded="false"
+    >
+      ☰
+    </button>
+
+  </div>
+
+  <div class="mobile-menu">
+
+    <a href="{{ '/' | relative_url }}">Home</a>
+
+    <a href="{{ '/about.html' | relative_url }}">
+      About
+    </a>
+
+    <a href="{{ '/services.html' | relative_url }}">
+      Services
+    </a>
+
+    <a href="{{ '/portfolio.html' | relative_url }}">
+      Portfolio
+    </a>
+
+    <a href="{{ '/all-niches-sites.html' | relative_url }}">
+      All Niches
+    </a>
+
+    <a
+      href="{{ '/blog.html' | relative_url }}"
+      class="pink-text"
+    >
+      Blog
+    </a>
+
+    <a href="{{ '/FAQs.html' | relative_url }}">
+      FAQ
+    </a>
+
+    <a href="{{ '/contact.html' | relative_url }}">
+      Contact
+    </a>
+
+  </div>
+
+</nav>
+
+<!-- HERO -->
+
+<header class="hero-bg py-28 px-6 text-center">
+
+  <div class="max-w-6xl mx-auto">
+
+    <span
+      class="inline-block border border-pink-300/40 text-pink-200 text-xs font-bold uppercase tracking-[4px] px-5 py-2 rounded-full mb-6"
+    >
+      SEO Knowledge Hub
+    </span>
+
+    <h1
+      class="text-4xl md:text-6xl font-black uppercase leading-tight mb-6"
+    >
+      SEO Insights, Link Building &
+      <span class="gold-text">
+        Ranking Strategies
+      </span>
+    </h1>
+
+    <p
+      class="text-pink-100 text-lg md:text-xl max-w-3xl mx-auto mb-9 leading-8"
+    >
+      Learn practical SEO, guest posting, backlinks, niche edits,
+      authority building and off-page SEO strategies to grow organic visibility.
+    </p>
+
+    <div class="flex justify-center gap-4 flex-wrap">
+
+      <a href="#articles" class="main-btn">
+        <i class="fas fa-book-open"></i>
+        Explore SEO Guides
+      </a>
+
+      <a
+        href="{{ '/contact.html' | relative_url }}"
+        class="main-btn"
+      >
+        <i class="fas fa-comments"></i>
+        Get Consultation
+      </a>
+
+    </div>
+
+  </div>
+
+</header>
+
+<!-- TOPICS -->
+
+<section
+  class="py-10 px-6"
+  style="background:#24091d;"
+>
+
+  <div
+    class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-5 text-center"
+  >
+
+    <div class="glass-card rounded-2xl p-6">
+
+      <i class="fas fa-link text-3xl gold-text mb-3"></i>
+
+      <h3 class="font-black uppercase">
+        Link Building
+      </h3>
+
+      <p class="text-pink-100 text-sm mt-2">
+        Backlink strategies that support authority growth.
+      </p>
+
+    </div>
+
+    <div class="glass-card rounded-2xl p-6">
+
+      <i class="fas fa-chart-line text-3xl gold-text mb-3"></i>
+
+      <h3 class="font-black uppercase">
+        SEO Growth
+      </h3>
+
+      <p class="text-pink-100 text-sm mt-2">
+        Ranking insights for long-term organic visibility.
+      </p>
+
+    </div>
+
+    <div class="glass-card rounded-2xl p-6">
+
+      <i class="fas fa-shield-halved text-3xl gold-text mb-3"></i>
+
+      <h3 class="font-black uppercase">
+        Authority Building
+      </h3>
+
+      <p class="text-pink-100 text-sm mt-2">
+        Trusted content and quality link source strategies.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- DYNAMIC BLOG POSTS -->
+
+<section
+  id="articles"
+  class="py-20 px-6 scroll-mt-24"
+  style="background:#ffffff;"
+>
+
+  <div class="max-w-7xl mx-auto">
+
+    <div class="text-center mb-14">
+
+      <p
+        class="uppercase tracking-[3px] text-sm font-black text-[#b83280] mb-3"
+      >
+        Latest SEO Articles
+      </p>
+
+      <h2
+        class="text-4xl md:text-5xl font-black uppercase mb-4 text-[#1a0715]"
+      >
+        Expert
+        <span class="text-[#b83280]">
+          SEO Guides
+        </span>
+      </h2>
+
+      <p class="text-gray-600 max-w-3xl mx-auto">
+        Read practical guides on guest posting, authority backlinks,
+        off-page SEO and ranking strategies.
+      </p>
+
+    </div>
+
+    {% if site.posts.size > 0 %}
+
+    <div
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+    >
+
+      {% for post in site.posts %}
+
+      <article class="blog-card">
+
+        {% if post.thumbnail and post.thumbnail != "" %}
+
+        <div class="blog-image">
+
+          <img
+            src="{{ post.thumbnail | relative_url }}"
+            alt="{{ post.thumbnail_alt | default: post.title | escape }}"
+            loading="lazy"
+          >
+
+        </div>
+
+        {% else %}
+
+        <div class="blog-image">
+          <i class="fas fa-chart-line"></i>
+        </div>
+
+        {% endif %}
+
+        <div class="blog-content">
+
+          {% if post.category %}
+
+          <span class="category-pill">
+            {{ post.category | escape }}
+          </span>
+
+          {% endif %}
+
+          <h3
+            class="text-2xl font-black mt-5 mb-4 leading-tight uppercase"
+          >
+            {{ post.title | escape }}
+          </h3>
+
+          {% if post.date %}
+
+          <p class="text-gray-500 text-xs mb-3">
+            {{ post.date | date: "%B %d, %Y" }}
+
+            {% if post.author %}
+              • {{ post.author | escape }}
+            {% endif %}
+          </p>
+
+          {% endif %}
+
+          {% if post.description %}
+
+          <p class="text-gray-600 text-sm mb-6 leading-7">
+            {{ post.description | strip_html | truncate: 170 }}
+          </p>
+
+          {% else %}
+
+          <p class="text-gray-600 text-sm mb-6 leading-7">
+            {{ post.excerpt | strip_html | truncate: 170 }}
+          </p>
+
+          {% endif %}
+
+          <a
+            href="{{ post.url | relative_url }}"
+            class="read-link"
+          >
+            Read Full Guide
+            <i class="fas fa-arrow-right"></i>
+          </a>
+
+        </div>
+
+      </article>
+
+      {% endfor %}
+
+    </div>
+
+    {% else %}
+
+    <div class="text-center py-14">
+
+      <i
+        class="fas fa-pen-nib text-5xl text-[#b83280] mb-5"
+      ></i>
+
+      <h3
+        class="text-2xl font-black text-[#1a0715] mb-3"
+      >
+        New SEO Articles Coming Soon
+      </h3>
+
+      <p class="text-gray-600">
+        New Rankvia SEO guides will appear here automatically.
+      </p>
+
+    </div>
+
+    {% endif %}
+
+  </div>
+
+</section>
+
+<!-- CTA -->
+
+<section
+  class="py-20 px-6"
+  style="background:#1a0715;"
+>
+
+  <div
+    class="max-w-6xl mx-auto glass-card rounded-[32px] p-10 md:p-14 text-center"
+  >
+
+    <h2
+      class="text-4xl md:text-5xl font-black uppercase mb-5"
+    >
+      Ready To Grow Your Rankings?
+    </h2>
+
+    <p
+      class="text-pink-100 text-lg max-w-3xl mx-auto mb-8"
+    >
+      Let Rankvia help you build authority with guest posting,
+      link building, niche edits and professional off-page SEO campaigns.
+    </p>
+
+    <div class="flex justify-center gap-4 flex-wrap">
+
+      <a
+        href="{{ '/contact.html' | relative_url }}"
+        class="main-btn"
+      >
+        Contact Us
+      </a>
+
+      <a
+        href="{{ '/all-niches-sites.html' | relative_url }}"
+        class="main-btn"
+      >
+        View Niches
+      </a>
+
+      <a
+        href="{{ '/FAQs.html' | relative_url }}"
+        class="main-btn"
+      >
+        Read FAQ
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer
+  class="py-8 px-6 text-center"
+  style="background:#10040d;border-top:1px solid rgba(255,122,200,.18);"
+>
+
+  <p class="font-black text-lg">
+    RANK<span class="pink-text">VIA</span>
+  </p>
+
+  <p class="text-pink-200 text-sm mt-2">
+    Guest Posting • Link Building • Authority Backlinks • SEO Services
+  </p>
+
+  <p class="text-pink-300 text-sm mt-4">
+    © 2026 Rankvia SEO Agency. All Rights Reserved.
+  </p>
+
+</footer>
+
+<!-- MOBILE MENU SCRIPT -->
+
+<script>
+  const menuBtn = document.querySelector('.mobile-menu-btn');
+  const mobileMenu = document.querySelector('.mobile-menu');
+
+  if (menuBtn && mobileMenu) {
+
+    menuBtn.addEventListener('click', function() {
+
+      mobileMenu.classList.toggle('active');
+
+      const isOpen =
+        mobileMenu.classList.contains('active');
+
+      menuBtn.setAttribute(
+        'aria-expanded',
+        String(isOpen)
+      );
+
+      menuBtn.textContent =
+        isOpen ? '✕' : '☰';
+
     });
 
-  }
+    mobileMenu
+      .querySelectorAll('a')
+      .forEach(function(link) {
 
+        link.addEventListener('click', function() {
+
+          mobileMenu.classList.remove('active');
+
+          menuBtn.setAttribute(
+            'aria-expanded',
+            'false'
+          );
+
+          menuBtn.textContent = '☰';
+
+        });
+
+      });
+
+  }
 </script>
 
 </body>
