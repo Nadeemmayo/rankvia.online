@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 162 56" role="img" aria-label="Rankvia">
+<g transform="translate(0 4)"><svg viewBox="0 0 48 48" width="48" height="48"><defs><linearGradient id="lgL" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1E3A8A"/><stop offset="1" stop-color="#3B5BDB"/></linearGradient></defs><rect width="48" height="48" rx="6" fill="url(#lgL)"/><path d="M13 15 24 34 35 15" fill="none" stroke="#fff" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="15" r="3.4" fill="#fff"/></svg></g>
+<text x="62" y="29" font-family="Manrope, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#0F172A" letter-spacing="-.4">Rank<tspan fill="#1E3A8A">via</tspan></text>
+<text x="63" y="47" font-family="Manrope, Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" fill="#5A6081" letter-spacing="2.4">YOUR ROUTE TO PAGE ONE</text>
+</svg>
