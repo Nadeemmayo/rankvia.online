@@ -388,3 +388,32 @@ h1,h2,h3,.legal p,.article p{overflow-wrap:break-word;hyphens:auto;-webkit-hyphe
 .soc span{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;color:#fff;cursor:default}
 .soc .s-tiktok{background:#0F1419!important}.soc .s-snapchat{background:#FFFC00!important;color:#111!important}.soc .s-whatsapp{background:#25D366!important}
 @media (min-width:961px){.duo3-m{position:relative;top:-96px}}
+.skip{left:8px!important;top:-80px}.skip:focus{top:8px}
+
+[dir=rtl] h1,[dir=rtl] h2,[dir=rtl] h3,[dir=rtl] h4{letter-spacing:0;line-height:1.4}
+[dir=rtl] .eyebrow,[dir=rtl] .mega h4,[dir=rtl] .ftr h4,[dir=rtl] .inv th,[dir=rtl] .card-tag,[dir=rtl] .brand small,[dir=rtl] .logos a small{letter-spacing:0;text-transform:none}
+[dir=rtl] .fa-arrow-right,[dir=rtl] .fa-chevron-right,[dir=rtl] .fa-arrow-up{transform:scaleX(-1)}
+[dir=rtl] .crumbs li+li::before{margin-right:0;margin-left:8px}
+[dir=rtl] .hs-go{margin-left:0;margin-right:auto}
+[dir=rtl] .hs-item:hover{padding-left:4px;padding-right:10px}
+[dir=rtl] .inv th{text-align:right}
+[dir=rtl] .article ul,[dir=rtl] .article ol{padding-left:0;padding-right:1.2em}
+[dir=rtl] .article .callout{border-left:0;border-right:4px solid var(--gold)}
+[dir=rtl] .ftr-contact a[href^="https://wa.me"],[dir=rtl] .contact-list span{direction:ltr;unicode-bidi:isolate}
+[dir=rtl] .lead,[dir=rtl] p{line-height:1.85}
+[dir=rtl] .topbar i{margin-right:0;margin-left:6px}
+[dir=rtl] .nav .dd>button i{margin-right:4px}
+
+@font-face{font-family:"Display";src:url(/assets/fonts/display-ur-700.woff2) format("woff2");font-weight:600;font-display:swap;unicode-range:U+0600-06FF,U+0750-077F,U+08A0-08FF,U+FB50-FDFF,U+FE70-FEFF}
+@font-face{font-family:"Display";src:url(/assets/fonts/display-ur-700.woff2) format("woff2");font-weight:700;font-display:swap;unicode-range:U+0600-06FF,U+0750-077F,U+08A0-08FF,U+FB50-FDFF,U+FE70-FEFF}
+@font-face{font-family:"Body";src:url(/assets/fonts/body-ur-400.woff2) format("woff2");font-weight:400;font-display:swap;unicode-range:U+0600-06FF,U+0750-077F,U+08A0-08FF,U+FB50-FDFF,U+FE70-FEFF}
+@font-face{font-family:"Body";src:url(/assets/fonts/body-ur-400.woff2) format("woff2");font-weight:500;font-display:swap;unicode-range:U+0600-06FF,U+0750-077F,U+08A0-08FF,U+FB50-FDFF,U+FE70-FEFF}
+@font-face{font-family:"Body";src:url(/assets/fonts/display-ur-700.woff2) format("woff2");font-weight:600;font-display:swap;unicode-range:U+0600-06FF,U+0750-077F,U+08A0-08FF,U+FB50-FDFF,U+FE70-FEFF}
+@font-face{font-family:"Body";src:url(/assets/fonts/display-ur-700.woff2) format("woff2");font-weight:700;font-display:swap;unicode-range:U+0600-06FF,U+0750-077F,U+08A0-08FF,U+FB50-FDFF,U+FE70-FEFF}
+@font-face{font-family:"Body";src:url(/assets/fonts/display-ur-700.woff2) format("woff2");font-weight:800;font-display:swap;unicode-range:U+0600-06FF,U+0750-077F,U+08A0-08FF,U+FB50-FDFF,U+FE70-FEFF}
+[lang=ur-PK] body{line-height:2.05}
+[lang=ur-PK] h1,[lang=ur-PK] h2,[lang=ur-PK] h3{line-height:1.9!important}
+[lang=ur-PK] .lead,[lang=ur-PK] p,[lang=ur-PK] li{line-height:2.15}
+[lang=ur-PK] b,[lang=ur-PK] strong,[lang=ur-PK] small{line-height:1.9}
+[dir=rtl] .duo3{direction:ltr}[dir=rtl] .duo3>*{direction:rtl}
+[lang=ur-PK] .gold-txt{padding-bottom:.3em;margin-bottom:-.3em;display:inline-block}

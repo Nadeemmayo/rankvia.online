@@ -1,152 +1,422 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://rankvia.online/</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://rankvia.online/ur/</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/"/>
     <lastmod>2026-11-03</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://rankvia.online/services.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/services.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/services.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://rankvia.online/ur/services.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/services.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/services.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://rankvia.online/complete-seo.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/complete-seo.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/complete-seo.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://rankvia.online/ur/complete-seo.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/complete-seo.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/complete-seo.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://rankvia.online/local-seo.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/local-seo.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/local-seo.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://rankvia.online/ur/local-seo.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/local-seo.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/local-seo.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://rankvia.online/on-page-seo.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/on-page-seo.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/on-page-seo.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://rankvia.online/ur/on-page-seo.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/on-page-seo.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/on-page-seo.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://rankvia.online/technical-seo.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/technical-seo.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/technical-seo.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://rankvia.online/ur/technical-seo.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/technical-seo.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/technical-seo.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://rankvia.online/content-writing.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/content-writing.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/content-writing.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://rankvia.online/ur/content-writing.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/content-writing.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/content-writing.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://rankvia.online/link-building.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/link-building.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/link-building.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://rankvia.online/ur/link-building.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/link-building.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/link-building.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://rankvia.online/guest-posting.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/guest-posting.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/guest-posting.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://rankvia.online/ur/guest-posting.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/guest-posting.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/guest-posting.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://rankvia.online/off-page-seo.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/off-page-seo.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/off-page-seo.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://rankvia.online/ur/off-page-seo.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/off-page-seo.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/off-page-seo.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://rankvia.online/google-ads.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/google-ads.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/google-ads.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://rankvia.online/ur/google-ads.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/google-ads.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/google-ads.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://rankvia.online/meta-ads.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/meta-ads.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/meta-ads.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://rankvia.online/ur/meta-ads.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/meta-ads.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/meta-ads.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://rankvia.online/facebook-ads.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/facebook-ads.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/facebook-ads.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://rankvia.online/ur/facebook-ads.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/facebook-ads.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/facebook-ads.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://rankvia.online/instagram-ads.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/instagram-ads.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/instagram-ads.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://rankvia.online/ur/instagram-ads.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/instagram-ads.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/instagram-ads.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://rankvia.online/tiktok-ads.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/tiktok-ads.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/tiktok-ads.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://rankvia.online/ur/tiktok-ads.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/tiktok-ads.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/tiktok-ads.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://rankvia.online/web-development.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/web-development.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/web-development.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://rankvia.online/ur/web-development.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/web-development.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/web-development.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://rankvia.online/custom-website.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/custom-website.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/custom-website.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://rankvia.online/ur/custom-website.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/custom-website.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/custom-website.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://rankvia.online/ai-automation.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/ai-automation.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/ai-automation.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://rankvia.online/ur/ai-automation.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/ai-automation.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/ai-automation.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://rankvia.online/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/about.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rankvia.online/ur/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/about.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rankvia.online/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/contact.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rankvia.online/ur/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/contact.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rankvia.online/FAQs.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/FAQs.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/FAQs.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rankvia.online/ur/FAQs.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/FAQs.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/FAQs.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rankvia.online/all-niches-sites.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/all-niches-sites.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/all-niches-sites.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rankvia.online/ur/all-niches-sites.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/all-niches-sites.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/all-niches-sites.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rankvia.online/portfolio.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/portfolio.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/portfolio.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rankvia.online/ur/portfolio.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/portfolio.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/portfolio.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rankvia.online/blog.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/blog.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rankvia.online/ur/blog.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/blog.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rankvia.online/blog-post-1.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/blog-post-1.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/blog-post-1.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rankvia.online/ur/blog-post-1.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/blog-post-1.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/blog-post-1.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rankvia.online/blog-post-2.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/blog-post-2.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/blog-post-2.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rankvia.online/ur/blog-post-2.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/blog-post-2.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/blog-post-2.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rankvia.online/blog-post-3.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/blog-post-3.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/blog-post-3.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rankvia.online/ur/blog-post-3.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/blog-post-3.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/blog-post-3.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rankvia.online/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/privacy.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rankvia.online/ur/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/privacy.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rankvia.online/terms.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/terms.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rankvia.online/ur/terms.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/terms.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rankvia.online/refund.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/refund.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/refund.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rankvia.online/ur/refund.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://rankvia.online/refund.html"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://rankvia.online/ur/refund.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.7</priority>
   </url>
