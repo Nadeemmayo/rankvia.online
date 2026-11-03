@@ -384,3 +384,7 @@ h1,h2,h3,.legal p,.article p{overflow-wrap:break-word;hyphens:auto;-webkit-hyphe
 @media (max-width:960px){.duo3{grid-template-columns:1fr 1fr;gap:14px}.duo3-m{grid-column:1/-1;order:-1;margin-bottom:10px}}
 @media (max-width:560px){.duo3 .duo-b{padding:14px}.duo3 .duo-b b{font-size:1.05rem}.duo3 .duo-b p{display:none}.duo3 .duo-b .soc a{width:34px;height:34px}.duo3 .duo-b .tm-mail{font-size:.72rem}}
 .duo3{align-items:stretch}.duo3-m{align-self:center}.duo3-l,.duo3-r{display:flex}.duo3-l .duo-c,.duo3-r .duo-c{width:100%}
+.soc .s-gmail{background:#fff!important;border:1px solid var(--line)!important}
+.soc span{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;color:#fff;cursor:default}
+.soc .s-tiktok{background:#0F1419!important}.soc .s-snapchat{background:#FFFC00!important;color:#111!important}.soc .s-whatsapp{background:#25D366!important}
+@media (min-width:961px){.duo3-m{position:relative;top:-96px}}
